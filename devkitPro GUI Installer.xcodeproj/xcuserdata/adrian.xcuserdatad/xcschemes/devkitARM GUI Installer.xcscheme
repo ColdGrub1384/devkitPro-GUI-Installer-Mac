@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3A5FCC911E37FC8B00E72452"
-               BuildableName = "devkitARM GUI Installer.app"
-               BlueprintName = "devkitARM GUI Installer"
-               ReferencedContainer = "container:devkitARM GUI Installer.xcodeproj">
+               BuildableName = "devkitPro GUI Installer.app"
+               BlueprintName = "devkitPro GUI Installer"
+               ReferencedContainer = "container:devkitPro GUI Installer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A5FCC911E37FC8B00E72452"
-            BuildableName = "devkitARM GUI Installer.app"
-            BlueprintName = "devkitARM GUI Installer"
-            ReferencedContainer = "container:devkitARM GUI Installer.xcodeproj">
+            BuildableName = "devkitPro GUI Installer.app"
+            BlueprintName = "devkitPro GUI Installer"
+            ReferencedContainer = "container:devkitPro GUI Installer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A5FCC911E37FC8B00E72452"
-            BuildableName = "devkitARM GUI Installer.app"
-            BlueprintName = "devkitARM GUI Installer"
-            ReferencedContainer = "container:devkitARM GUI Installer.xcodeproj">
+            BuildableName = "devkitPro GUI Installer.app"
+            BlueprintName = "devkitPro GUI Installer"
+            ReferencedContainer = "container:devkitPro GUI Installer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A5FCC911E37FC8B00E72452"
-            BuildableName = "devkitARM GUI Installer.app"
-            BlueprintName = "devkitARM GUI Installer"
-            ReferencedContainer = "container:devkitARM GUI Installer.xcodeproj">
+            BuildableName = "devkitPro GUI Installer.app"
+            BlueprintName = "devkitPro GUI Installer"
+            ReferencedContainer = "container:devkitPro GUI Installer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A5FCC961E37FC8C00E72452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5FCC951E37FC8C00E72452 /* AppDelegate.swift */; };
-		3A5FCC981E37FC8C00E72452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5FCC971E37FC8C00E72452 /* ViewController.swift */; };
-		3A5FCC9A1E37FC8C00E72452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5FCC991E37FC8C00E72452 /* Assets.xcassets */; };
-		3A5FCC9D1E37FC8C00E72452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5FCC9B1E37FC8C00E72452 /* Main.storyboard */; };
+		3AC6B0871E394FA3008858B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6B0861E394FA3008858B1 /* AppDelegate.swift */; };
+		3AC6B0891E394FA9008858B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6B0881E394FA9008858B1 /* ViewController.swift */; };
+		3AC6B08B1E394FAE008858B1 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6B08A1E394FAE008858B1 /* Run.swift */; };
+		3AC6B08D1E394FB3008858B1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6B08C1E394FB3008858B1 /* Info.plist */; };
+		3AC6B08F1E394FB6008858B1 /* devkit in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6B08E1E394FB6008858B1 /* devkit */; };
+		3AC6B0911E394FBD008858B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6B0901E394FBD008858B1 /* Assets.xcassets */; };
+		3AC6B0961E394FD9008858B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6B0941E394FD9008858B1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A5FCC921E37FC8C00E72452 /* devkitARM GUI Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devkitARM GUI Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A5FCC951E37FC8C00E72452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A5FCC971E37FC8C00E72452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3A5FCC991E37FC8C00E72452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A5FCC9C1E37FC8C00E72452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A5FCC9E1E37FC8C00E72452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5FCC921E37FC8C00E72452 /* devkitPro GUI Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devkitPro GUI Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC6B0861E394FA3008858B1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "devkitPro GUI Installer/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		3AC6B0881E394FA9008858B1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "devkitPro GUI Installer/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3AC6B08A1E394FAE008858B1 /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Run.swift; path = "devkitPro GUI Installer/Run.swift"; sourceTree = SOURCE_ROOT; };
+		3AC6B08C1E394FB3008858B1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "devkitPro GUI Installer/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3AC6B08E1E394FB6008858B1 /* devkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = devkit; path = "devkitPro GUI Installer/devkit"; sourceTree = SOURCE_ROOT; };
+		3AC6B0901E394FBD008858B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "devkitPro GUI Installer/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		3AC6B0951E394FD9008858B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "devkitPro GUI Installer/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +41,7 @@
 		3A5FCC891E37FC8B00E72452 = {
 			isa = PBXGroup;
 			children = (
-				3A5FCC941E37FC8C00E72452 /* devkitARM GUI Installer */,
+				3A5FCC941E37FC8C00E72452 /* devkitPro GUI Installer */,
 				3A5FCC931E37FC8C00E72452 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +49,32 @@
 		3A5FCC931E37FC8C00E72452 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A5FCC921E37FC8C00E72452 /* devkitARM GUI Installer.app */,
+				3A5FCC921E37FC8C00E72452 /* devkitPro GUI Installer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3A5FCC941E37FC8C00E72452 /* devkitARM GUI Installer */ = {
+		3A5FCC941E37FC8C00E72452 /* devkitPro GUI Installer */ = {
 			isa = PBXGroup;
 			children = (
-				3A5FCC951E37FC8C00E72452 /* AppDelegate.swift */,
-				3A5FCC971E37FC8C00E72452 /* ViewController.swift */,
-				3A5FCC991E37FC8C00E72452 /* Assets.xcassets */,
-				3A5FCC9B1E37FC8C00E72452 /* Main.storyboard */,
-				3A5FCC9E1E37FC8C00E72452 /* Info.plist */,
+				3AC6B0861E394FA3008858B1 /* AppDelegate.swift */,
+				3AC6B0881E394FA9008858B1 /* ViewController.swift */,
+				3AC6B0941E394FD9008858B1 /* Main.storyboard */,
+				3AC6B08A1E394FAE008858B1 /* Run.swift */,
+				3AC6B08C1E394FB3008858B1 /* Info.plist */,
+				3AC6B0901E394FBD008858B1 /* Assets.xcassets */,
+				3AC6B08E1E394FB6008858B1 /* devkit */,
 			);
+			name = "devkitPro GUI Installer";
 			path = "devkitARM GUI Installer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A5FCC911E37FC8B00E72452 /* devkitARM GUI Installer */ = {
+		3A5FCC911E37FC8B00E72452 /* devkitPro GUI Installer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A5FCCA11E37FC8C00E72452 /* Build configuration list for PBXNativeTarget "devkitARM GUI Installer" */;
+			buildConfigurationList = 3A5FCCA11E37FC8C00E72452 /* Build configuration list for PBXNativeTarget "devkitPro GUI Installer" */;
 			buildPhases = (
 				3A5FCC8E1E37FC8B00E72452 /* Sources */,
 				3A5FCC8F1E37FC8B00E72452 /* Frameworks */,
@@ -76,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = "devkitARM GUI Installer";
+			name = "devkitPro GUI Installer";
 			productName = "devkitARM GUI Installer";
-			productReference = 3A5FCC921E37FC8C00E72452 /* devkitARM GUI Installer.app */;
+			productReference = 3A5FCC921E37FC8C00E72452 /* devkitPro GUI Installer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,11 +102,12 @@
 					3A5FCC911E37FC8B00E72452 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = FTTZS623CZ;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3A5FCC8D1E37FC8B00E72452 /* Build configuration list for PBXProject "devkitARM GUI Installer" */;
+			buildConfigurationList = 3A5FCC8D1E37FC8B00E72452 /* Build configuration list for PBXProject "devkitPro GUI Installer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A5FCC911E37FC8B00E72452 /* devkitARM GUI Installer */,
+				3A5FCC911E37FC8B00E72452 /* devkitPro GUI Installer */,
 			);
 		};
 /* End PBXProject section */
@@ -121,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5FCC9A1E37FC8C00E72452 /* Assets.xcassets in Resources */,
-				3A5FCC9D1E37FC8C00E72452 /* Main.storyboard in Resources */,
+				3AC6B08D1E394FB3008858B1 /* Info.plist in Resources */,
+				3AC6B0911E394FBD008858B1 /* Assets.xcassets in Resources */,
+				3AC6B08F1E394FB6008858B1 /* devkit in Resources */,
+				3AC6B0961E394FD9008858B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,18 +144,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5FCC981E37FC8C00E72452 /* ViewController.swift in Sources */,
-				3A5FCC961E37FC8C00E72452 /* AppDelegate.swift in Sources */,
+				3AC6B0891E394FA9008858B1 /* ViewController.swift in Sources */,
+				3AC6B08B1E394FAE008858B1 /* Run.swift in Sources */,
+				3AC6B0871E394FA3008858B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3A5FCC9B1E37FC8C00E72452 /* Main.storyboard */ = {
+		3AC6B0941E394FD9008858B1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3A5FCC9C1E37FC8C00E72452 /* Base */,
+				3AC6B0951E394FD9008858B1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -246,12 +258,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FTTZS623CZ;
-				INFOPLIST_FILE = "devkitARM GUI Installer/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/devkitPro GUI Installer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.ada.devkitARM-GUI-Installer";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.ada.devkitPro-GUI-Installer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -260,11 +274,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FTTZS623CZ;
-				INFOPLIST_FILE = "devkitARM GUI Installer/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/devkitPro GUI Installer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.ada.devkitARM-GUI-Installer";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.ada.devkitPro-GUI-Installer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -273,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A5FCC8D1E37FC8B00E72452 /* Build configuration list for PBXProject "devkitARM GUI Installer" */ = {
+		3A5FCC8D1E37FC8B00E72452 /* Build configuration list for PBXProject "devkitPro GUI Installer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A5FCC9F1E37FC8C00E72452 /* Debug */,
@@ -282,13 +297,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A5FCCA11E37FC8C00E72452 /* Build configuration list for PBXNativeTarget "devkitARM GUI Installer" */ = {
+		3A5FCCA11E37FC8C00E72452 /* Build configuration list for PBXNativeTarget "devkitPro GUI Installer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A5FCCA21E37FC8C00E72452 /* Debug */,
 				3A5FCCA31E37FC8C00E72452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
