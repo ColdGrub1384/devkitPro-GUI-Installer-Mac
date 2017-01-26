@@ -58,9 +58,11 @@ class ViewController: NSViewController {
             name.addButton(withTitle: "Ok")
             name.runModal()
             
+            print(NSUserName())
+            
             print((name.accessoryView as! NSTextField).stringValue)
             print(result!.absoluteString)
-            print(Run().runAsRoot(cmd: "cp -r /opt/devkitpro/examples/3ds/templates/application \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue); sudo chmod 777 \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue); cp /opt/devkitpro/libctru/default_icon.png \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue)/; sudo chmod 666 \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue)/default_icon.png; sudo mv \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue)/default_icon.png \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue)/icon.png;"))
+            print(Run().runAsRoot(cmd: "cp -r /opt/devkitpro/examples/3ds/templates/application \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue); sudo chmod 777 \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))\((name.accessoryView as! NSTextField).stringValue); sudo chmod 666 \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))\((name.accessoryView as! NSTextField).stringValue)/source/*; sudo chown \(NSUserName()) \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))\((name.accessoryView as! NSTextField).stringValue)/source; cp /opt/devkitpro/libctru/default_icon.png \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue)/; sudo chmod 666 \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue)/default_icon.png; sudo mv \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue)/default_icon.png \(result!.absoluteString.replacingOccurrences(of: "file://", with: ""))/\((name.accessoryView as! NSTextField).stringValue)/icon.png;"))
         }
     }
     
