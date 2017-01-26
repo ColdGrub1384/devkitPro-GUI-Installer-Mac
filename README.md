@@ -5,4 +5,4 @@ A GUI 3DS Homebrew IDE and development environment installer for Mac
 This tool automatically installs [devkitPro](https://sourceforge.net/projects/devkitpro/) for Mac, creates projects and compile it.
 <br/>
 <br/>
-[Download](https://github.com/ColdGrub1384/devkitPro-GUI-Installer-Mac/releases/tag/1.0)
+[Download](https://github.com/ColdGrub1384/devkitPro-GUI-Installer-Mac/releases/tag/1.1)
